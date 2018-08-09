@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class StringDemo01 {
 	/***/
 	public static void main(String[] args) {
-		/** ÓÊÏäÕıÔò±í´ïÊ½ */
+		/** é‚®ç®±éªŒè¯ */
 		String regex = "[a-zA-Z0-9_]+@[a-zA-Z0-9_]+(\\.[a-zA-Z0-9]+)+";
 		System.out.println(regex);
 		String email = "sunleiu@qq.com";
 		boolean bol = email.matches(regex);
 		if (bol) {
-			System.out.println("ÊÇÓĞĞ§ÓÊÏä");
+			System.out.println("æ˜¯æœ‰æ•ˆæœ‰æ•ˆ");
 		} else {
-			System.out.println("²»ÊÇÓĞĞ§ÓÊÏä");
+			System.out.println("ä¸æ˜¯æœ‰æ•ˆæœ‰æ•ˆ!");
 		}
 	}
 }
